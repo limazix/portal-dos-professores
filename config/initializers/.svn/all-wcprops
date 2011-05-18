@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/6/trunk/PortalProf3/config/initializers
+END
+inflections.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/6/trunk/PortalProf3/config/initializers/inflections.rb
+END
+session_store.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/6/trunk/PortalProf3/config/initializers/session_store.rb
+END
+secret_token.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/6/trunk/PortalProf3/config/initializers/secret_token.rb
+END
+backtrace_silencers.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/6/trunk/PortalProf3/config/initializers/backtrace_silencers.rb
+END
+mime_types.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/6/trunk/PortalProf3/config/initializers/mime_types.rb
+END

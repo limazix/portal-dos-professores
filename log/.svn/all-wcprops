@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/6/trunk/PortalProf3/log
+END
+test.log
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/6/trunk/PortalProf3/log/test.log
+END
+development.log
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/6/trunk/PortalProf3/log/development.log
+END
+production.log
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/6/trunk/PortalProf3/log/production.log
+END
+server.log
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/6/trunk/PortalProf3/log/server.log
+END

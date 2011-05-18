@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/9/trunk/PortalProf3
+END
+Rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/6/trunk/PortalProf3/Rakefile
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/6/trunk/PortalProf3/.gitignore
+END
+Gemfile
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/8/trunk/PortalProf3/Gemfile
+END
+config.ru
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/6/trunk/PortalProf3/config.ru
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/6/trunk/PortalProf3/README
+END

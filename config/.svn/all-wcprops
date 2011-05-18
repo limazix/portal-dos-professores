@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/9/trunk/PortalProf3/config
+END
+routes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/9/trunk/PortalProf3/config/routes.rb
+END
+database.yml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/6/trunk/PortalProf3/config/database.yml
+END
+application.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/6/trunk/PortalProf3/config/application.rb
+END
+boot.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/6/trunk/PortalProf3/config/boot.rb
+END
+environment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/6/trunk/PortalProf3/config/environment.rb
+END
