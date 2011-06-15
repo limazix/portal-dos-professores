@@ -8,7 +8,6 @@ describe CoreController do
       get 'home'
       response.should be_success
     end
- 
   end
 end
 

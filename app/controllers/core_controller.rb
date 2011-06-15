@@ -1,5 +1,6 @@
 class CoreController < ApplicationController
-  def Home
+	def Home
 		render :text => "ola"
 	end
+	
 end
