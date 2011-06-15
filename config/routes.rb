@@ -1,6 +1,6 @@
 Portal::Application.routes.draw do
 
-  root :to => 'core#Home'
+  root :to => 'core#home'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
