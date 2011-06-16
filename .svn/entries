@@ -11,8 +11,8 @@ https://portal-dos-professores.googlecode.com/svn
 9
 blimacardoso@gmail.com
 has-props
-
-
+has-prop-mods
+svn:special svn:externals svn:needs-lock
 
 
 
@@ -26,14 +26,107 @@ has-props
 
 aa1c22fe-3154-7fb6-1650-e88dfc614ab4
 
-test
-dir
+.gitignore
+file
+
+
+
+
+2011-05-18T18:48:37.873200Z
+8d8bebadee46fc4ea5cecf07e2f8946e
+2011-05-09T19:06:56.473539Z
+6
+aocbrasil@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+36
 
-app
-dir
+Gemfile
+file
+
+
+
+
+2011-05-18T18:48:37.876200Z
+145143b5780d3246572c40a3c41a486e
+2011-05-18T17:08:39.290539Z
+8
+blimacardoso@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+841
 
-log
-dir
+README
+file
+
+
+
+
+2011-05-18T18:48:37.868200Z
+ee8c327b283718b7d3e8dd84d5bc0d91
+2011-05-09T19:06:56.473539Z
+6
+aocbrasil@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9126
 
 Rakefile
 file
@@ -69,7 +162,10 @@ aocbrasil@gmail.com
 
 266
 
-db
+app
+dir
+
+config
 dir
 
 config.ru
@@ -106,129 +202,33 @@ aocbrasil@gmail.com
 
 156
 
-spec
-dir
-
-README
-file
-
-
-
-
-2011-05-18T18:48:37.868200Z
-ee8c327b283718b7d3e8dd84d5bc0d91
-2011-05-09T19:06:56.473539Z
-6
-aocbrasil@gmail.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-9126
-
-vendor
-dir
-
-tmp
-dir
-
-script
-dir
-
-config
+db
 dir
 
 doc
 dir
 
-.gitignore
-file
-
-
-
-
-2011-05-18T18:48:37.873200Z
-8d8bebadee46fc4ea5cecf07e2f8946e
-2011-05-09T19:06:56.473539Z
-6
-aocbrasil@gmail.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-36
-
 lib
 dir
 
-Gemfile
-file
-
-
-
-
-2011-05-18T18:48:37.876200Z
-145143b5780d3246572c40a3c41a486e
-2011-05-18T17:08:39.290539Z
-8
-blimacardoso@gmail.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-841
+log
+dir
 
 public
+dir
+
+script
+dir
+
+spec
+dir
+
+test
+dir
+
+tmp
+dir
+
+vendor
 dir
 
