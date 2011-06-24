@@ -23,8 +23,13 @@ class ProfessoresController < ApplicationController
 		# Testa se professor existe no Banco de Dados
 		if (profs.include? params[:nome])
 			# Atribuir os dados do BD as variáveis da View
+			@aviso = ''
 			@conteudo = profs[params[:nome]]
 		else
+			@aviso = 'Página de professor não existente.'
+			@conteudo = { 'nome' => '',
+				      'descricao' => ''
+				    }
 			# Lançar 404
 		end
 			
