@@ -1,32 +1,26 @@
 class ProfessoresController < ApplicationController
 	def view
-		# Mock do BD
-		profs = {
-			'bruno' => {
-				'nome' => 'Bruno Lima',
-				'descricao' => 'Um cara namoral'
-				},
-			'pedro' => {
-				'nome' => 'Pedro Alberto',
-				'descricao' => 'Um cara do Pará'
-				},
-			'luiz' => {
-				'nome' => 'Luiz Fernando J. Bacelar',
-				'descricao' => 'Um cara Janela'
-				},
-			'guilherme' => {
-				'nome' => 'Guilherme "O Foda" Fernandes',
-				'descricao' => 'Um cara babaca'
-				}
-		}
-		
+        
+        @prof = Professor.find_by_nome(params[:nome])
+
+        if( @prof.nil? )
+           @prof = Professor.new(:nome => params[:nome])
+            @conteudo = "Página ainda não criada."
+        else
+            @conteudo = "Aqui será inserido o conteúdo associado a cada professor."
+        end
+
+        respond_to do |format|
+            format.html
+        end
+
 		# Testa se professor existe no Banco de Dados
-		if (profs.include? params[:nome])
-			# Atribuir os dados do BD as variáveis da View
-			@conteudo = profs[params[:nome]]
-		else
-			# Lançar 404
-		end
+#		if (profs.include? params[:nome])
+#			# Atribuir os dados do BD as variáveis da View
+#			@conteudo = profs[params[:nome]]
+#		else
+#			# Lançar 404
+#		end
 			
 	end
 end
