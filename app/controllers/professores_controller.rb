@@ -4,7 +4,7 @@ class ProfessoresController < ApplicationController
         @prof = Professor.find_by_nome(params[:nome])
 
         if( @prof.nil? )
-           @prof = Professor.new(:nome => params[:nome])
+           @prof = Professor.create!(:nome => params[:nome])
             @conteudo = "Página ainda não criada."
         else
             @conteudo = "Aqui será inserido o conteúdo associado a cada professor."
