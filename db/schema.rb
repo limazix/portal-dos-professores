@@ -10,7 +10,14 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110711201036) do
+ActiveRecord::Schema.define(:version => 20110714231649) do
+
+  create_table "conteudos", :force => true do |t|
+    t.text     "texto"
+    t.integer  "professor_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "professors", :force => true do |t|
     t.string   "nome"

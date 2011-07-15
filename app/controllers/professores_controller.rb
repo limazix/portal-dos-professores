@@ -5,9 +5,6 @@ class ProfessoresController < ApplicationController
 
         if( @prof.nil? )
            @prof = Professor.create!(:nome => params[:nome])
-            @conteudo = "Página ainda não criada."
-        else
-            @conteudo = "Aqui será inserido o conteúdo associado a cada professor."
         end
 
         respond_to do |format|

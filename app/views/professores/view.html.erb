@@ -1,4 +1,20 @@
 <h2><%= @prof.nome %></h2>
-<p>
-    <%= @conteudo %>
-</p>
+
+<h3>Conteúdos</h3>
+<% @prof.conteudos.each do |conteudo| %>
+  <p>
+    <b>Conteúdo:</b>
+    <%= conteudo.texto %>
+  </p>
+<% end %>
+
+<h3>Insira um novo conteúdo:</h3>
+<%= form_for([@prof, @prof.conteudos.build]) do |f| %>
+  <div class="field">
+      <%= f.label :texto %><br />
+      <%= f.text_area :texto %>
+  </div>
+  <div class="actions">
+      <%= f.submit %>
+  </div>
+<% end %>
