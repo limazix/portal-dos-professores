@@ -8,14 +8,13 @@
   	<a href="delete/conteudo/<%= conteudo.id %>"> Excluir post </a>
   </p>
 <% end %>
-
-<h3>Insira um novo conteúdo:</h3>
-<%= form_for([@prof, @prof.conteudos.build]) do |f| %>
-  <div class="field">
-      <%= f.label :texto %><br />
-      <%= f.text_area :texto %>
-  </div>
-  <div class="actions">
-      <%= f.submit %>
-  </div>
-<% end %>
+            <h3>Insira um novo conteúdo:</h3>
+            <%= form_for([@prof, @prof.conteudos.build]) do |f| %>
+              <div class="field">
+                    <%= f.label :texto %><br />
+                          <%= f.text_area :texto %>
+                            </div>
+                              <div class="actions">
+                                    <%= f.submit %>
+                                      </div>
+                                      <% end %>
