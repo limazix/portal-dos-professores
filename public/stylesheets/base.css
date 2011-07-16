@@ -20,42 +20,96 @@ body {
     width: 1000px;
     text-align: center;
     margin: 20px auto;
+	background: black;
 }
 
-#main { background: #eee }
-
-#header {
-    height: 250px;
-    background: #aaa;
+header {
+    height: 100px;
+    background: white;
 }
 
 #logo {
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 250px;
     float: left;
-    margin-left: 30px;
-    margin-top: 30px;
 }
 
-#logoText {
-    float: left;
-    margin-top: 100px;
-    margin-left: 30px;
-    font-family: 'American Typewriter', Courier, monospace;
-    font-size: 50px;
-    color: #333;
+/* Links */
+
+a {
+  color: #09c;
+  text-decoration: none;
 }
 
-#footer {
-    height: 60px;
-    clear: left;
-    background: #aaa;
+a:hover {
+  color: #069;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #069;
+}
+
+/* Navigation */
+
+nav {
+  float: right;
+}
+
+nav {
+  background-color: white;
+  padding: 0 0.7em;
+  white-space: nowrap;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0.2em 0;
+}
+
+nav ul li a {
+  padding: 0 5px;
+  font-weight: bold;
+  border-right: 1px solid #09c;
+  border-left: 1px solid #09c;
+}
+
+nav ul li a:visited {
+  color: #09c;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Round corners */
+
+.round {
+  -moz-border-radius:    10px;
+  -webkit-border-radius: 10px;
+  border-radius:         10px;
 }
 
 #content {
-    height: 400px;
     width: 100%;
     float: left;
-    background: #eee;
+    background: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:#09c;
+}
+
+#footer {
+    clear: left;
+    background: white;
+    text-align:center;
+    padding: 1em 0;
+    color:#09c;
 }
 
