@@ -4,6 +4,15 @@
     <title>Portal dos Professores</title>
 
     <%= render 'layouts/stylesheets' %>
+
+    <!-- Load jQuery -->
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+	google.load("jquery", "1");
+    </script>
+
+    <!-- Load TinyMCE -->
+    <script type="text/javascript" src="/jscripts/tiny_mce/jquery.tinymce.js"></script>
   </head>
 	<div id="main">
 		<%= render 'layouts/header' %>
