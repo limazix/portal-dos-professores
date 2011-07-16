@@ -37,7 +37,6 @@ $(document).ready(function() {
 <h3>Insira um novo conteúdo:</h3>
 <%= form_for([@prof, @prof.conteudos.build]) do |f| %>
 	<div class="field">
-	    <%= f.label :texto %><br />
         <%= f.text_area :texto %>
     </div>
     <div class="actions">

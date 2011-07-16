@@ -21,6 +21,7 @@ body {
     text-align: left;
     margin: 20px auto;
 	background: white;
+    color:#050505;
 }
 
 header {
@@ -36,18 +37,11 @@ header {
 
 /* Links */
 
-a {
-  color: #09c;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #069;
-  text-decoration: underline;
-}
-
-a:visited {
-  color: #069;
+a:link,
+a:hover,
+a:visited,
+a:active {
+      color:#050505;
 }
 
 /* Round corners */
@@ -64,7 +58,6 @@ a:visited {
     background: #eee;
     margin-top: 10px;
     margin-bottom: 10px;
-    color:#050505;
     padding: 15px;
 }
 
@@ -73,7 +66,6 @@ a:visited {
     background: #eee;
     text-align:center;
     padding: 1em 0;
-    color:#09c;
 }
 
 p.conteudo{
