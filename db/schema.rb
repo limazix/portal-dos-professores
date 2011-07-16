@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110714231649) do
+ActiveRecord::Schema.define(:version => 20110716165906) do
 
   create_table "conteudos", :force => true do |t|
     t.text     "texto"
@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(:version => 20110714231649) do
     t.string   "nome"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "nome_real"
   end
 
 end

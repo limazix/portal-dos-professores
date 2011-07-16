@@ -50,44 +50,6 @@ a:visited {
   color: #069;
 }
 
-/* Navigation */
-
-nav {
-  float: right;
-}
-
-nav {
-  background-color: white;
-  padding: 0 0.7em;
-  white-space: nowrap;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-}
-
-nav ul li {
-  list-style-type: none;
-  display: inline-block;
-  padding: 0.2em 0;
-}
-
-nav ul li a {
-  padding: 0 5px;
-  font-weight: bold;
-  border-right: 1px solid #09c;
-  border-left: 1px solid #09c;
-}
-
-nav ul li a:visited {
-  color: #09c;
-}
-
-nav ul li a:hover {
-  text-decoration: underline;
-}
-
 /* Round corners */
 
 .round {
@@ -102,7 +64,8 @@ nav ul li a:hover {
     background: #eee;
     margin-top: 10px;
     margin-bottom: 10px;
-    color:#09c;
+    color:#050505;
+    padding: 15px;
 }
 
 #footer {
@@ -111,5 +74,20 @@ nav ul li a:hover {
     text-align:center;
     padding: 1em 0;
     color:#09c;
+}
+
+p.conteudo{
+	border-bottom: 1px solid #ccc;
+	padding: 5px;
+}
+
+a.excluir{
+	color: #d00;
+	font-size: 11px;
+}
+
+textarea{
+	width: 400px;
+	height: 200px;
 }
 

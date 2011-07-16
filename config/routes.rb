@@ -6,7 +6,8 @@ Portal::Application.routes.draw do
   # first created -> highest priority.
 
   # Sample of regular route:
-    match 'delete/conteudo/:id' => 'conteudos#delete'
+  match 'delete/conteudo/:id' => 'conteudos#delete'
+  match 'professors/:id' => 'professores#update_nome_real'
   match ':nome' => 'professores#view'
 
   resources :professors do

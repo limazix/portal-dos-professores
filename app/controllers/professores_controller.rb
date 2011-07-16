@@ -4,7 +4,7 @@ class ProfessoresController < ApplicationController
         @prof = Professor.find_by_nome(params[:nome])
 
         if( @prof.nil? )
-           @prof = Professor.create!(:nome => params[:nome])
+           @prof = Professor.create!(:nome => params[:nome], :nome_real => params[:nome])
         end
 
         respond_to do |format|
@@ -20,4 +20,13 @@ class ProfessoresController < ApplicationController
 #		end
 			
 	end
+	
+	def update_nome_real
+		@prof = Professor.find(params[:id])
+		@prof.nome_real = params[:professor]["nome_real"]
+		@prof.save
+		
+		redirect_to (root_path + (@prof.nome))
+	end
+	
 end
